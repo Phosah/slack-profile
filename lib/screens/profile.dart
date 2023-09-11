@@ -41,10 +41,10 @@ class ProfileScreen extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const WebViewPage()),
+                            builder: (context) => const WebViewPageScreen()),
                       );
                     },
-                    child: const Text('View Github'))
+                    child: const Text('Open Github'))
               ],
             ),
           ],

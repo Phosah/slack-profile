@@ -24,5 +24,3 @@ For help with Flutter development, you can also join the Flutter community on [S
 ## WebViewComponent
 
 This project uses the `WebViewComponent` package to display web content within the app. To use this package in your own Flutter project, you can follow these steps:
-
-1. Add the `updater` dependency to your `pubspec.yaml` file:
