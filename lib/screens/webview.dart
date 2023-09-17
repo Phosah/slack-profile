@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-class WebViewPageScreen extends StatefulWidget {
-  const WebViewPageScreen({Key? key}) : super(key: key);
+class GithubWebViewScreen extends StatefulWidget {
+  const GithubWebViewScreen({Key? key}) : super(key: key);
 
   @override
-  WebViewPageScreenState createState() => WebViewPageScreenState();
+  GithubWebViewScreenState createState() => GithubWebViewScreenState();
 }
 
-class WebViewPageScreenState extends State<WebViewPageScreen> {
+class GithubWebViewScreenState extends State<GithubWebViewScreen> {
   late final WebViewController controller;
   @override
   void initState() {
